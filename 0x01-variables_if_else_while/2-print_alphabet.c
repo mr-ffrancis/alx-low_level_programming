@@ -13,12 +13,13 @@ int main(void)
 	int n = 0 ; 
 	
 	char alp[] =  "abcdefghijklmnopqrstuvwxyz";
+	int sizee = strlen(alp);
 
 	do
 	{
 	n = n + 1;						
 	putchar(alp[n]);	
 			
-	} while(n <= strlen(alp)); 
+	} while(n <= sizee); 
 	return (0);
 }
