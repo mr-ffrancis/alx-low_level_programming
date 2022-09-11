@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+#include <string.h>
 /**
  * main - Entry point
  * assigns a randon number to variable n
