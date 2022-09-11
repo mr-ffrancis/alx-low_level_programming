@@ -12,9 +12,11 @@ int main(void)
 	int n = 0;
 	char alp[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 	int sizee = strlen(alp);
+	char e[] ="e";
+	char q[] = "q";	
 
 	do {
-	if (!strcmp(alp[n], "q") || !strcmp(alp[n], "e"))
+	if (!strcmp(alp[n], q) || !strcmp(alp[n], e))
 	{
 	putchar(alp[n]);
 	}
