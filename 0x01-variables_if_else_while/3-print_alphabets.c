@@ -12,7 +12,7 @@ int main(void)
 {
 	int n = 0;
 	int k = 0;
-	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
+	char alp[] = "abcdefghijklmnopqrstuvwxyz";
 	int alp_len = strlen(alp);
 	int alp_upp_lower = alp_len * 2;
 	char alp_all[52];
