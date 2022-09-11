@@ -9,15 +9,16 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	int n = 1; 
+{	
+	int n = 0 ; 
+	
 	char alp[] =  "abcdefghijklmnopqrstuvwxyz";
 
 	do
 	{
-
-	putchar(alp[n]);
-	n++;		
+	n = n + 1;						
+	putchar(alp[n]);	
 			
-	} while(n < strlen(alp)); 
+	} while(n <= strlen(alp)); 
 	return (0);
 }
