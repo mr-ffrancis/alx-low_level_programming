@@ -15,9 +15,9 @@ int main(void)
 	do
 	{
 
-	putchar(alp[n];
+	putchar(alp[n]);
 	n++;		
 			
-	} while(n < strlen(alp[[]); 
+	} while(n < strlen(alp)); 
 	return (0);
 }
