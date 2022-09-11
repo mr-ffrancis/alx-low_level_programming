@@ -2,12 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main function starts the code
+* main - Entry Point
 * assigns a randon number to variable n
 * check if the number is positive or negative and prints the result
 *
 */
-
 int main(void)
 {
 	int n;
