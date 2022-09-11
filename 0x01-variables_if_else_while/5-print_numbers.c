@@ -10,13 +10,11 @@
  */
 int main(void)
 {
-	int n = 0;
-	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int sizee = strlen(alp);
-
-	do {
-	putchar(alp[n]);
-	n++;
-	} while (n < sizee);
+	int a;
+	for (a = 0; a < 0; a++)
+	{
+		printf("%d", a);
+	}
+	putchar("\n")
 	return (0);
 }
