@@ -16,7 +16,7 @@ int main(void)
 	char q[] = "q";	
 
 	do {
-	if (!strcmp(alp[n], q) || !strcmp(alp[n], e))
+	if (strcmp(alp[n], q) == 1 || strcmp(alp[n], e) == 1)
 	{
 	putchar(alp[n]);
 	}
