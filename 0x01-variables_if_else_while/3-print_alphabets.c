@@ -29,7 +29,9 @@ int main(void)
 	}
 	n++;
 	} while (n < alp_upp_lower);
-	foreach (char alphabets in alp_all)
-		putchar(alphabets);
+	for (n = 0; n < alp_upp_lower; n++)
+	{
+		putchar(alp_all[n]);
+	}
 	return (0);
 }
