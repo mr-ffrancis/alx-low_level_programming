@@ -23,7 +23,7 @@ int main(void)
 	}
 	else
 	{
-	putchar(toupper(alp[k]);
+	putchar(toupper(alp[k]));
 	k++;
 	}
 	n++;
