@@ -10,13 +10,15 @@
 int main(void)
 {
 	int n = 0;
-	char alp[27] = "abcdefghijklmnopqrstuvwxyz\n";
+	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int sizee = strlen(alp);
-	char e[2] ="e";
-	char q[2] = "q";	
+	char e[] ="e";
+	char q[] = "q";	
+	char str_1[];
 
 	do {
-	if ((strcmp(alp[n], q) == 1) || (strcmp(alp[n], e) == 1))
+	str_1 = alp[n];
+	if ((strcmp(str_1, q) == 1) || (strcmp(str_1, e) == 1))
 	{
 	putchar(alp[n]);
 	}
