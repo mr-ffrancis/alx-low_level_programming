@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 /**
@@ -13,7 +14,7 @@ int main(void)
 	int k = 0;
 	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int alp_len = strlen(alp);
-	int alp_upp_lower = alp_len * 2
+	int alp_upp_lower = alp_len * 2;
 
 	do {
 	if ( n < 27 )
