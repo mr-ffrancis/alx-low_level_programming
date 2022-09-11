@@ -32,9 +32,9 @@ int main(void)
 	for (n = 0; n < alp_upp_lower; n++)
 	{
 		if ( n < 52 )
-			putchar("%d", alp_all[n]);
+			putchar("%c", alp_all[n]);
 		else
-			putchar("%d\n", alp_all[n]); 
+			putchar("%c\n", alp_all[n]); 
 	}
 	return (0);
 }
