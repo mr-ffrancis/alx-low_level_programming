@@ -17,7 +17,7 @@ int main(void)
 	do
 	{							
 	putchar(alp[n]);	
-	n++:
+	n++;
 	}while(n <= sizee);
 	return (0);
 }
