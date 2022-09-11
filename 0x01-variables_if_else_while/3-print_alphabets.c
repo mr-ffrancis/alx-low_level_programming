@@ -13,20 +13,22 @@ int main(void)
 	int n = 0;
 	int k = 0;
 	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
+	char alp_all[];
 	int alp_len = strlen(alp);
 	int alp_upp_lower = alp_len * 2;
 
 	do {
 	if ( n < 27 )
 	{
-	putchar(alp[n]);
+	alp_all[n] = alp[n];
 	}
 	else
 	{
-	putchar(toupper(alp[k]));
+	alp_all[n] = toupper(alp[k]));
 	k++;
 	}
 	n++;
 	} while (n < alp_upp_lower);
+	putchar(alp_all)
 	return (0);
 }
