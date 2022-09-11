@@ -9,20 +9,15 @@
  */
 int main(void)
 {
-	int n = 0;
-	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int sizee = strlen(alp);
-	char e[] ="e";
-	char q[] = "q";	
-	char str_1[];
-
-	do {
-	str_1 = alp[n];
-	if ((strcmp(str_1, q) == 1) || (strcmp(str_1, e) == 1))
+	int i;
+	for (i = 97; i < 123; i+)
 	{
-	putchar(alp[n]);
+	if (i != 101 && i != 113)
+	{
+		putchar(i);
 	}
-	n++;
-	} while (n < sizee);
+	}
+	putchar('\n');
 	return (0);
+	}
 }
