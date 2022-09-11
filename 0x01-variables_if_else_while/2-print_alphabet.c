@@ -10,12 +10,11 @@
  */
 int main(void)
 {
-	int n = 0; 
+	int n = 0;
 	char alp[] = "abcdefghijklmnopqrstuvwxyz";
 	int sizee = strlen(alp);
 
-	do
-	{
+	do{
 	putchar(alp[n]);	
 	n++;
 	} while (n < sizee);
