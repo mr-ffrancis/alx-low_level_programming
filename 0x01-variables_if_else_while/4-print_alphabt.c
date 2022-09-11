@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n = 0;
-	char alp[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int sizee = strlen(alp);
 	char e[] ="e";
 	char q[] = "q";	
@@ -20,7 +20,7 @@ int main(void)
 	{
 	putchar(alp[n]);
 	}
-	n++
+	n++;
 	} while (n < sizee);
 	return (0);
 }
