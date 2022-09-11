@@ -5,8 +5,7 @@
 /**
  * main - Entry point
  * assigns a randon number to variable n
- * check if the number is positive or negative and prints the result 
- *
+ * checks if the number is positive or negative and prints the result
  * Return: Always 0 (Success)
  */
 int main(void)
