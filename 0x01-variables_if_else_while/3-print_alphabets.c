@@ -15,7 +15,7 @@ int main(void)
 	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int alp_len = strlen(alp);
 	int alp_upp_lower = alp_len * 2;
-	char alp_all[alp_upp_lower];
+	char alp_all[52];
 
 	do {
 	if ( n < 27 )
@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-	alp_all[n] = toupper(alp[k]));
+	alp_all[n] = toupper(alp[k]);
 	k++;
 	}
 	n++;
