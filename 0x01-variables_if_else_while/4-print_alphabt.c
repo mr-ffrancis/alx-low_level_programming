@@ -14,7 +14,7 @@ int main(void)
 	int sizee = strlen(alp);
 
 	do {
-	if ( alp[n] != "q" || alpn[n] != "e")
+	if (!strcmp(alp[n], "q") || !strcmp(alp[n], "e"))
 	{
 	putchar(alp[n]);
 	}
