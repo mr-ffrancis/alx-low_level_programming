@@ -10,10 +10,10 @@
 int main(void)
 {
 	int n = 0;
-	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
+	char alp[27] = "abcdefghijklmnopqrstuvwxyz\n";
 	int sizee = strlen(alp);
-	char e[] ="e";
-	char q[] = "q";	
+	char e[2] ="e";
+	char q[2] = "q";	
 
 	do {
 	if ((strcmp(alp[n], q) == 1) || (strcmp(alp[n], e) == 1))
