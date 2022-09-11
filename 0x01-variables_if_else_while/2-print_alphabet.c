@@ -11,7 +11,7 @@
 int main(void)
 {
 	int n = 0;
-	char alp[] = "abcdefghijklmnopqrstuvwxyz";
+	char alp[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int sizee = strlen(alp);
 
 	do {
