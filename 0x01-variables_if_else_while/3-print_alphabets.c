@@ -23,9 +23,9 @@ int main(void)
 	else
 	{
 	putchar(toupper(alp(k));
-	k++
+	k++;
 	}
-	n++
+	n++;
 	} while (n < alp_upp_lower);
 	return (0);
 }
