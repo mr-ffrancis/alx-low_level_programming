@@ -19,11 +19,11 @@ int main(void)
 	do {
 	if ( n < 27 )
 	{
-	putchar(alp(n));
+	putchar(alp[n]);
 	}
 	else
 	{
-	putchar(toupper(alp(k));
+	putchar(toupper(alp[k]);
 	k++;
 	}
 	n++;
