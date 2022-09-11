@@ -14,8 +14,8 @@ int main(void)
 	char alp[] = "abcdefghijklmnopqrstuvwxyz";
 	int sizee = strlen(alp);
 
-	do{
-	putchar(alp[n]);	
+	do {
+	putchar(alp[n]);
 	n++;
 	} while (n < sizee);
 	return (0);
