@@ -20,6 +20,11 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
+
+				if (a == 57 & b == 58){
+				
+				break;
+				}
 				putchar(',');
 				putchar(' ');
 			}
