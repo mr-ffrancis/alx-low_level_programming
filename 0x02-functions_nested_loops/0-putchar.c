@@ -14,10 +14,10 @@ int main(void)
 	b = strlen(answer);
 	do
 	{
-		putchar(answer[a]);
+		_putchar(answer[a]);
 		a++;
 
 	}while (a<=b);
-	putchar('\n');
+	_putchar('\n');
 	return 0;
 }
