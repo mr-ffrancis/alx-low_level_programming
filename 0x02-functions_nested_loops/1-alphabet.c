@@ -9,9 +9,11 @@
 
 void print_alphabet(void)
 {
-	for(int a = 97; a < 123; a++)
-	{
+	int a = 97;
+
+	do{
 		_putchar(a);
-	}
+		a++;
+	} while (a < 123);
 	return (0);
 }
