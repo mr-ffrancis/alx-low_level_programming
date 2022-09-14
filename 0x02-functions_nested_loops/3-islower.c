@@ -6,8 +6,8 @@
  */
 int _islower(int c)
 {	
-	char a[] = c;
-
-	int answer = islower(a);
-	return (answer);
+	if (c > 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 }
