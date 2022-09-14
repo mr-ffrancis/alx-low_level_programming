@@ -5,7 +5,8 @@
  *Return: 0 on sucess
  *
  */
-int print_sign(int n){
+int print_sign(int n)
+{
 	if (n > 0)
 	{
 		_putchar(43);
