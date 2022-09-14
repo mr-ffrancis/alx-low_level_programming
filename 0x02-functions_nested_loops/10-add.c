@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - Entry Point
- *@n:is an acii alpabetical parameter
+ * @b number
+ * @a number
  *Return: 0 on sucess
  *
  */
