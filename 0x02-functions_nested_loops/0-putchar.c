@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char answer[] = "_putchar";
+	char answer[] = "_putchar\n";
 	int a = 0;
 	int b;
 
