@@ -2,7 +2,7 @@
 /**
  *main - Entry of the Program
  *Functions
- *
+ *Returns - 0 on sucess
  */
 
 int main(void)
@@ -12,10 +12,10 @@ int main(void)
 	int b;
 
 	b = strlen(answer);
-	do{
+	do {
 		_putchar(answer[a]);
 		a++;
 
-	}while (a < b);
-	return 0;
+	} while (a < b);
+	return (0);
 }
