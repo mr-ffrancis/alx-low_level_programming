@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  *main - Entry of the Program
  *Functions
  *
  */
 
-int main()
+int main(void)
 {
 	char answer[] = "_putchar";
 	int a = 0;
