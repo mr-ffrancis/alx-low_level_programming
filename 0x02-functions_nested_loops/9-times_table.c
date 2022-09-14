@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  *
- * times_table - Entry Point
- *Print Alphabet
+ *times_table - Entry Point
  *Return: 0 on sucess
  *
  */
