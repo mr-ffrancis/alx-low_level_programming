@@ -12,11 +12,10 @@ int main(void)
 	int b;
 
 	b = strlen(answer);
-	do
-	{
+	do{
 		_putchar(answer[a]);
 		a++;
 
-	}while (a<b);
+	}while (a < b);
 	return 0;
 }
