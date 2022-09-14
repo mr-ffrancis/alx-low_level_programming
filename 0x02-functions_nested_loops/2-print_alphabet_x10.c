@@ -20,5 +20,5 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 		b++;
-	} while (b < 11)
+	} while (b < 11);
 }
