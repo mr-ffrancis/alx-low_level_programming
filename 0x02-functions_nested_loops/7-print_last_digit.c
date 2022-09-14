@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_last_digit - Entry Point
- *@n:is an acii alpabetical parameter
+ *@n:is an acii alpabetical parameters
  *Return: 0 on sucess
  *
  */
