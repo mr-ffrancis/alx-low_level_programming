@@ -17,6 +17,6 @@ int main(void)
 		_putchar(answer[a]);
 		a++;
 
-	}while (a<=b);
+	}while (a<b);
 	return 0;
 }
