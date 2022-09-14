@@ -5,7 +5,9 @@
  *Return: 0 on sucess
  */
 int _islower(int c)
-{
-	int answer = islower(c);
+{	
+	char a[] = c;
+
+	int answer = islower(a);
 	return (answer);
 }
