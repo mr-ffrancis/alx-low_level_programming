@@ -9,7 +9,8 @@
 int main()
 {
 	char answer[] = "_putchar";
-	int a = 0, b;
+	int a = 0;
+	int b;
 
 	b = strlen(answer);
 	do
@@ -18,6 +19,6 @@ int main()
 		a++;
 
 	}while (a<=b);
-	putchar('\n')
+	putchar('\n');
 	return 0;
 }
