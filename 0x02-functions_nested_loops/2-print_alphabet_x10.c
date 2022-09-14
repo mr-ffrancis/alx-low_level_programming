@@ -13,6 +13,7 @@ void print_alphabet_x10(void)
 	int b = 1;
 
 	do{
+		a = 97;
 		while (a < 123)
 		{
 		_putchar(a);
