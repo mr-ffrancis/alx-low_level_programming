@@ -18,6 +18,5 @@ int main(void)
 		a++;
 
 	}while (a<=b);
-	_putchar('\n');
 	return 0;
 }
