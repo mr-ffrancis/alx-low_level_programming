@@ -11,7 +11,9 @@ void more_numbers(void)
 		for (int b = 48; b <= 57; b++)
 		{
 			if (a < 49)
+			{
 				_putchar(b);
+			}
 			else if (a == 49 && b < 53)
 			{
 				_putchar(a);
