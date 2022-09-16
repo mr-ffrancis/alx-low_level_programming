@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_diagona - Entry Point
+ * print_diagonal - Entry Point
  * Printline
  * @n: Number of times to printline
  */
 void print_diagonal(int n)
 {
-	int a;
+	int a, x;
 
 	for (a = 0; a < n; a++)
 	{
@@ -16,7 +16,7 @@ void print_diagonal(int n)
 		}
 		_putchar(95);
 	}
-	for (int x = 0; x < a; x++)
+	for (x = 0; x <= a; x++)
 	{
 		_putchar(32);
 	}
