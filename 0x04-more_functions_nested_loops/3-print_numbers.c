@@ -5,6 +5,8 @@
  */
 void print_numbers(void)
 {
+	int a;
+
 	for (int a = 48; a < 58; a++)
 	{
 		_putchar("%c", a);
