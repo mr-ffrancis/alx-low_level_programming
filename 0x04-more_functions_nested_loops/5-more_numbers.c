@@ -6,23 +6,28 @@
  */
 void more_numbers(void)
 {
-	int a, b;
+	int a, b, c;
 
-	for (int a = 48; a <= 57; a++)
+	for (c = 0; c < 10; c++)
 	{
-		for (int b = 48; b <= 57; b++)
+		for (a = 48; a <= 57; a++)
 		{
-			if (a < 49)
+			for (b = 48; b <= 57; b++)
 			{
-				_putchar(b);
+				if (a < 49)
+				{
+					_putchar(b);
+				}
+				else if (a == 49 && b < 53)
+				{
+					_putchar(a);
+					_putchar(b);
+				}
+				else if (a > 49)
+				{
+					break;
+				}
 			}
-			else if (a == 49 && b < 53)
-			{
-				_putchar(a);
-				_putchar(b);
-			}
-			else if (a > 49)
-				break;
 		}
 	}
 	_putchar('\n');
