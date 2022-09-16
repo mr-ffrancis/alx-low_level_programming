@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * more_numbers -Entry point
- * Return: Number 0 -14
+ * more_number - Entry point
+ * Print: Number 0 - 14
+ *
  */
-
 void more_numbers(void)
 {
 	for (int a = 48; a <= 57; a++)
