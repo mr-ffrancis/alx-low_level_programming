@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_number - Entry point
+ * more_numbers - Entry point
  * Print: Number 0 - 14
  *
  */
@@ -12,7 +12,7 @@ void more_numbers(void)
 	{
 		for (b = 0; b < 15; b++)
 		{
-			if (b > 10)
+			if (b >= 10)
 			{
 				_putchar((b / 10) + 48);
 			}
