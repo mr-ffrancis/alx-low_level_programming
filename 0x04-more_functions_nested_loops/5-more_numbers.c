@@ -10,26 +10,12 @@ void more_numbers(void)
 
 	for (c = 0; c < 10; c++)
 	{
-		for (a = 48; a <= 57; a++)
+		for (b = 0; b < 15; b++)
 		{
-			for (b = 48; b <= 57; b++)
-			{
-				if (a < 49)
-				{
-					_putchar(b);
-				}
-				else if (a == 49 && b < 53)
-				{
-					_putchar(a);
-					_putchar(b);
-				}
-				else if (a > 49)
-				{
-					break;
-				}
-			}
+			if (b > 10)
+				_putchar((b / 10) +48);
+			_putchar((b % 10) + 48);
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
