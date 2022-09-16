@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * main - Entry Point
- * _isupper - to confirm if a character is upper or lower case.
- * Return 1 for upper and 0 for lower of @c
- *@c: is the character
- *
+/**
+ * _isupper - Entry Point
+ * @c: is the character
+ * Return: 1 on success
  */
-
 int _isupper(int c)
 {
 	if (c > 64 && c < 91)
