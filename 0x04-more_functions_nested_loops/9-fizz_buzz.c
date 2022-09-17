@@ -11,24 +11,28 @@ int main(void)
 	int i = 1;
 
 	do {
+		if (i == 1)
+		{
+			printf("%d ",i);
+		}
 		if (i % 5 == 0 || i % 3 == 0)
 		{
 			if (i % 5 == 0 && i % 3 == 0)
 			{
-				printf("FizzBuzz ");
+				printf(" FizzBuzz");
 			}
 			else if (i % 5 == 0 || i % 3 != 0)
 			{
-				printf("Buzz ");
+				printf(" Buzz");
 			}
 			else
 			{
-				printf("Fizz ");
+				printf(" Fizz");
 			}
 		}
 		else
 		{
-			printf("%d ", i);
+			printf(" %d", i);
 		}
 		i++;
 	} while (i <= 100);
