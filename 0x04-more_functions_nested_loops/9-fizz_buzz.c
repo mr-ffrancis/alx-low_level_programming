@@ -3,8 +3,8 @@
 
 /**
  *main - Entry point
- *
- * Return:0 on sucess
+ *Fizz Buzz Test
+ * Return: 0 on sucess
  */
 int main(void)
 {
