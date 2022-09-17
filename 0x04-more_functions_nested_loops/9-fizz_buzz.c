@@ -13,7 +13,7 @@ int main(void)
 	do {
 		if (i == 1)
 		{
-			printf("%d ",i);
+			printf("%d ", i);
 		}
 		if (i % 5 == 0 || i % 3 == 0)
 		{
