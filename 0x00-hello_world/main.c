@@ -12,8 +12,8 @@
 
  int main(void)
 
-{
-
-	    return (0);
+{	
+	printf("size of int %lu bytes(s)\n", sizeof(long unsigned int));
+	return (0);
 
 }
