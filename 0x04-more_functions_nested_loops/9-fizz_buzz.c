@@ -32,5 +32,6 @@ int main(void)
 		}
 		i++;
 	} while (i <= 100);
+	printf("\n");
 	return (0);
 }
