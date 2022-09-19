@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  *_strlen - Entry Point
@@ -7,7 +8,7 @@
 
 int _strlen(char *s)
 {
-	int c = sizeof(*s);
+	int c = strlen(*s);
 
 	return (c);
 }
