@@ -5,7 +5,9 @@
  * @a: ponter to char location
  */
 
-int _strlen(int *a)
+int _strlen(int *s)
 {
-	int c = sizeof(*a);
+	int c = sizeof(*s);
+
+	return (c);
 }
