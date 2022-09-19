@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - Entry Point
+ * @n: pointer to an integer
  */
 
 
