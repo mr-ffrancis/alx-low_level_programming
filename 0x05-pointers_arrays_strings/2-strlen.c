@@ -2,10 +2,10 @@
 
 /**
  *_strlen - Entry Point
- * @a: ponter to char location
+ * @s: ponter to char locaTION
  */
 
-int _strlen(int *s)
+int _strlen(char *s)
 {
 	int c = sizeof(*s);
 
