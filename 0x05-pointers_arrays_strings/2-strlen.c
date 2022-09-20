@@ -4,7 +4,7 @@
 /**
  *_strlen - Entry Point
  * @s: ponter to char locaTION
- * Return: integer c 
+ * Return:integer c
  */
 
 int _strlen(char *s)
