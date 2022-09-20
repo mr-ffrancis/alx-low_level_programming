@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * puts_2 - prints half of a string.
+ * puts2 - prints half of a string.
  * @str: input string.
  * Return: no return.
  */
 
-void puts_2(char *str)
+void puts2(char *str)
 {
 	int count = 0;
 
