@@ -17,7 +17,7 @@ void rev_string(char *s)
 	}
 	for (i = c - 1; i >= 0; i--)
 	{
-		for (int j = 0; j >= c; j++)
+		for (j = 0; j <= c; j++)
 		{
 			a[j] = (*(s + i));
 		}
